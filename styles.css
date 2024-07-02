@@ -9,103 +9,102 @@ DARK BLUE: #1D3557
 */
 
 body {
-    margin: 0;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
-    width: 150px;
+  width: 150px;
 }
 
 h3 {
-    margin: 0;
-    padding: 15px;
+  margin: 0;
+  padding: 15px;
 }
 
-#hero {
-    height: 200px;
-    padding: 50px 20px 50px 20px;;
-    background-image: url("./images/gwalior-fort1.jpg");
-    background-size: cover;
-    border: 3px solid #ffd000;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.hero {
+  height: 200px;
+  padding: 50px 20px 50px 20px;
+  background-image: url("./images/gwalior-fort1.jpg");
+  background-size: cover;
+  border: 3px solid #ffd000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#hero h1 {
-    background: #07beb8;
-    color: #f8f9fa;
-    border-radius: 10px;
-    padding: 5px 10px;
-    font-size: 30px;
+.hero h1 {
+  background: #07beb8;
+  color: #f8f9fa;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 30px;
 }
 
-#hero h2 {
-    background: #68d8d6;
-    color: #f8f9fa;
-    border-radius: 10px;
-    font-size: 14px;
-    padding: 5px 10px;
-    width: 300px;
+.hero h2 {
+  background: #68d8d6;
+  color: #f8f9fa;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 5px 10px;
+  width: 300px;
 }
 
 .nav-wrapper {
-    display:flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #wrapper-div {
-    background-image: linear-gradient(#a9d6e5,#468faf);
+  background-image: linear-gradient(#a9d6e5, #468faf);
 }
 
 #activities {
-    margin: 0;
-    color: #e9ecef;
-    padding: 20px;
+  margin: 0;
+  color: #e9ecef;
+  padding: 20px;
 }
 
 #activities h3 {
-    padding: 30px 0 20px 0;
+  padding: 30px 0 20px 0;
 }
 
 .item {
-    text-align: center;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
 }
 
-.item img{
-    border-radius: 30px;
+.item img {
+  border-radius: 30px;
 }
 
 .avatar {
-    width: 150px;
-    height: 150px;
-    padding: 20px;
-    border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .card {
-    width: 400px;
-    margin: 0px auto;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    background: #07BEB8;
-    color: #e9ecef;
-    border-bottom: 8px solid #ffd000;
-    border-radius: 20px;
+  width: 400px;
+  margin: 0px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #07beb8;
+  color: #e9ecef;
+  border-bottom: 8px solid #ffd000;
+  border-radius: 20px;
 }
 
 #guide {
-    padding: 40px;
+  padding: 40px;
 }
-
