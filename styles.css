@@ -14,10 +14,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img {
-  width: 150px;
-}
-
 h3 {
   margin: 0;
   padding: 15px;
@@ -75,21 +71,19 @@ h3 {
 .activity {
   text-align: center;
   padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
   font-size: 14px;
 }
 
 .activity img {
   border-radius: 30px;
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
 }
 
 .avatar {
-  width: 150px;
   height: 150px;
-  padding: 20px;
   border-radius: 20px;
 }
 
@@ -99,6 +93,8 @@ h3 {
   padding: 20px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  gap: 20px;
   text-align: center;
   background: #07beb8;
   color: #e9ecef;
