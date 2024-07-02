@@ -28,6 +28,7 @@ h3 {
   padding: 50px 20px 50px 20px;
   background-image: url("./images/gwalior-fort1.jpg");
   background-size: cover;
+  background-position: center;
   border: 3px solid #ffd000;
 
   display: flex;
