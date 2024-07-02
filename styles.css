@@ -53,7 +53,7 @@ h3 {
   width: 300px;
 }
 
-.nav-wrapper {
+.activities-wrapper {
   display: flex;
   justify-content: center;
 }
@@ -62,17 +62,17 @@ h3 {
   background-image: linear-gradient(#a9d6e5, #468faf);
 }
 
-.activities {
+.activities-section {
   margin: 0;
   color: #e9ecef;
   padding: 20px;
 }
 
-.activities h3 {
+.activities-section h3 {
   padding: 30px 0 20px 0;
 }
 
-.item {
+.activity {
   text-align: center;
   padding: 10px;
   margin-top: 10px;
@@ -82,7 +82,7 @@ h3 {
   font-size: 14px;
 }
 
-.item img {
+.activity img {
   border-radius: 30px;
 }
 
